@@ -1,0 +1,2 @@
+Développement d'une application qui permet de personnaliser sa séance de sport à travers une bibliothèque d'exercices adaptées aux besoins spécifiques (zone à travailler et niveau d'intensité) ainsi qu'aux contraintes de santé de l'utilisateur. 
+Cette application propose un suivi alimentaire et un coaching sur mesure.
