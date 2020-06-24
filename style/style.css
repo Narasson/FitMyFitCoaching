@@ -1,4 +1,13 @@
-body {
-  background-image: url(halteres.jpg);
-  background-position: cover;
+*{
+  margin: 0;
+  padding: 0;
 }
+body img{
+  width: 100%;
+  z-index: -1;
+}
+.menu{
+  position: relative;
+  text-align: center;
+}
+
