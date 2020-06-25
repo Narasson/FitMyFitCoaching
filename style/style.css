@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body{
   background: greenyellow;
@@ -8,7 +9,7 @@ body{
 
 
 /* bandeau menu */
-header{
+.banniere{
   background: white;
   position: fixed;
 }
@@ -17,10 +18,27 @@ header{
   float: left;
   position: relative;
 }
-.titre{
+.h1{
   text-align: center;
   color: cornflowerblue;
-  font-size: 1.5em;
+  position: relative;
+  font-size: 20px;
+}
+.lettres{
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0px;    /* écart en les lettres */
+}
+.titre{
+  position: relative;
+  left: 5%;
+  font-size: 35px;
+  transform: translate(-5%, 60%);  /* POSITION (HORIZONTAL, VERTICAL) */
+}
+.titre2{
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
 }
 .menu{
   list-style-type: none;
@@ -39,7 +57,10 @@ header{
 }
 a{
   display: block;
+  color: black;
+  text-decoration: none;
+  cursor: auto;
 }
 a:hover{
-  color: black;
+  color: blue;
 }
