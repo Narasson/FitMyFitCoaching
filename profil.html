@@ -7,6 +7,8 @@
     <title>Fit My Fit Coaching</title>
 
     <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
   </head>
 
   <body>
@@ -58,6 +60,49 @@
 
 
     <!-- corps du site -->
+    <div id="corps" >
+
+      <div id="profil"> 
+        <p>profils en cours de devellopement {{psodo}} </p> 
+
+        <ul>
+          <li  v-for="info in infos">
+            <p>{{ info }}</p>
+            <input type="text">
+          </li>
+        </ul>
+      
+      </div>
+
+      <div class="anim"> 
+        <p>anim en cours de devellopement</p>
+        <img src="./img/mensuration femme.jpg" alt="Mensuration femme">
+        <img src="./img/mensuration homme.jpg" alt="Mensuration Homme">
+      </div>
+
+    </div>
+
+    <script>
+      var app = new Vue({
+          el: "#corps",
+          data: {
+            infos: [
+          "Psodo",
+          "Nom",
+          "Prénom",
+          "E-mail",
+          "Sexe",
+          "Proid Inscription",
+          "Tailles",
+          "Mensuration"],
+          },
+          methods:{
+            function sexe(params) {
+              
+            }
+          }
+        });
+    </script>
 
 
     <!-- fin du site -->

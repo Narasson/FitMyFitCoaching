@@ -8,10 +8,12 @@ body{
 }
 
 
-/* bandeau menu */
+/* ##############   bandeau menu   ############## */
 .banniere{
+  display: block;
   background: white;
   position: fixed;
+  width: 100%;
 }
 .logo_chrono{
   width: 25%;
@@ -49,11 +51,11 @@ body{
 }
 .menu ul{
   text-align: right;
-  padding-right: 15px;
+  padding-right: 20px;  /* marge coté droit de connection */
 }
 .menu li{
   display: inline-flex; 
-  padding-left: 10px;
+  padding-left: 30px;   /* écartement des liens */
 }
 a{
   display: block;
@@ -64,3 +66,40 @@ a{
 a:hover{
   color: blue;
 }
+
+
+/* ##############   corps de mon site - index   ############## */
+#bandeau{
+  position: absolute;
+  display: block;
+  height: 300px;
+  width: 100%;
+  background: black;
+  margin-top: 257px;
+  
+}
+
+
+/* ##############   corps de mon site - Profils   ############## */
+#corps{
+  display: relative;
+  position: absolute;
+  background: crimson;
+}
+#profil{
+  background: blueviolet;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 100px;
+  width: 500px; /* larguer de **px */
+  height: 500px; /* hauteur de **px */
+}
+.anim{
+  background: coral;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 800px;
+  width: 500px; /* larguer de **px */
+  height: 500px; /* hauteur de **px */
+}
+
