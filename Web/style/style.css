@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: greenyellow;
+}
+
+
+/* ##############   bandeau menu   ############## */
+.banniere{
+  display: block;
+  background: white;
+  position: fixed;
+  width: 100%;
+}
+.logo_chrono{
+  width: 25%;
+  float: left;
+  position: relative;
+}
+.h1{
+  text-align: center;
+  color: cornflowerblue;
+  position: relative;
+  font-size: 20px;
+}
+.lettres{
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0px;    /* écart en les lettres */
+}
+.titre{
+  position: relative;
+  left: 5%;
+  font-size: 35px;
+  transform: translate(-5%, 60%);  /* POSITION (HORIZONTAL, VERTICAL) */
+}
+.titre2{
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+}
+.menu{
+  list-style-type: none;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.menu ul{
+  text-align: right;
+  padding-right: 20px;  /* marge coté droit de connection */
+}
+.menu li{
+  display: inline-flex; 
+  padding-left: 30px;   /* écartement des liens */
+}
+a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  cursor: auto;
+}
+a:hover{
+  color: blue;
+}
+
+
+/* ##############   corps de mon site - index   ############## */
+#bandeau{
+  position: absolute;
+  display: block;
+  height: 300px;
+  width: 100%;
+  background: black;
+  margin-top: 257px;
+  
+}
+
+
+/* ##############   corps de mon site - Profils   ############## */
+#corps{
+  display: relative;
+  position: absolute;
+  background: crimson;
+}
+#profil{
+  background: blueviolet;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 100px;
+  width: 500px; /* larguer de **px */
+  height: 500px; /* hauteur de **px */
+}
+.anim{
+  background: coral;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 800px;
+  width: 500px; /* larguer de **px */
+  height: 500px; /* hauteur de **px */
+}
+
